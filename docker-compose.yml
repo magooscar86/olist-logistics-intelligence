@@ -1,0 +1,41 @@
+# ============================================================================
+# DOCKER COMPOSE - Olist Logistics API
+# ============================================================================
+version: '3.8'
+
+services:
+  # Servicio: API
+  api:
+    # Construir desde el Dockerfile en esta carpeta
+    build: .
+    
+    # Nombre del container
+    container_name: olist-api
+    
+    # Mapeo de puertos: puerto_local:puerto_container
+    # localhost:8000 → container:8000
+    ports:
+      - "8000:8000"
+    
+    # Mapeo de volúmenes (carpetas compartidas)
+    # Permite ver cambios sin reconstruir
+    volumes:
+      - ./src:/app/src
+      - ./checkpoints:/app/checkpoints
+      - ./models:/app/models
+    
+    # Variables de entorno
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=info
+    
+    # Reiniciar automáticamente si falla
+    restart: unless-stopped
+    
+    # Health check (verificar que esté viva)
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

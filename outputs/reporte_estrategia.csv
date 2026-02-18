@@ -1,0 +1,7 @@
+Categoría,Modelo Ganador,RMSE,Memoria GP (sem),Tipo Mercado,Horizonte Planificación
+bed_bath_table,GP Puro,40.16377756566559,43.6,ESTRATÉGICO,3+ meses
+computers_accessories,Media Móvil,46.01504654319086,15.0,VOLÁTIL,<1 mes
+furniture_decor,GP Puro,36.42447182379942,36.8,TÁCTICO,1-3 meses
+health_beauty,LightGBM Puro,39.56221807799288,67.2,ESTRATÉGICO,3+ meses
+housewares,LightGBM Puro,26.334907643149496,80.1,ESTRATÉGICO,3+ meses
+sports_leisure,Media Móvil,36.63287361288008,15.0,VOLÁTIL,<1 mes

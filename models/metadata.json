@@ -1,0 +1,19 @@
+{
+  "forecasting": {},
+  "spatial": {
+    "gp_spatial": [
+      {
+        "version": "v_20260107_194417",
+        "timestamp": "20260107_194417",
+        "path": "/content/drive/MyDrive/Olist_Project/models/spatial/v_20260107_194417/gp_spatial.pkl",
+        "metrics": {
+          "r2": 0.0686,
+          "length_scale": 2.9629,
+          "length_scale_km": 328.89,
+          "n_training": 4000
+        }
+      }
+    ]
+  },
+  "created_at": "2026-01-07T19:44:13.674047"
+}

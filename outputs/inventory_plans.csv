@@ -1,0 +1,19 @@
+Categoría,Modelo,Nivel Servicio,RMSE,Demanda Semanal,Stock Seguridad,Punto Reorden,Cantidad Pedido,Inventario Promedio
+bed_bath_table,GP Puro,80%,40.16377756566559,125.4,48.0,299.0,550.0,323.0
+bed_bath_table,GP Puro,95%,40.16377756566559,125.4,112.0,363.0,613.0,418.0
+bed_bath_table,GP Puro,99%,40.16377756566559,125.4,146.0,397.0,648.0,470.0
+health_beauty,LightGBM Puro,80%,39.56221807799288,107.8,47.0,263.0,479.0,287.0
+health_beauty,LightGBM Puro,95%,39.56221807799288,107.8,110.0,326.0,541.0,381.0
+health_beauty,LightGBM Puro,99%,39.56221807799288,107.8,144.0,360.0,575.0,432.0
+sports_leisure,Media Móvil,80%,36.63287361288008,96.3,44.0,237.0,429.0,258.0
+sports_leisure,Media Móvil,95%,36.63287361288008,96.3,102.0,295.0,487.0,345.0
+sports_leisure,Media Móvil,99%,36.63287361288008,96.3,134.0,326.0,519.0,393.0
+furniture_decor,GP Puro,80%,36.42447182379942,92.8,44.0,229.0,415.0,251.0
+furniture_decor,GP Puro,95%,36.42447182379942,92.8,101.0,287.0,473.0,338.0
+furniture_decor,GP Puro,99%,36.42447182379942,92.8,133.0,318.0,504.0,385.0
+computers_accessories,Media Móvil,80%,46.01504654319086,87.4,55.0,230.0,405.0,257.0
+computers_accessories,Media Móvil,95%,46.01504654319086,87.4,128.0,303.0,478.0,367.0
+computers_accessories,Media Móvil,99%,46.01504654319086,87.4,168.0,343.0,517.0,426.0
+housewares,LightGBM Puro,80%,26.334907643149496,77.6,32.0,187.0,342.0,203.0
+housewares,LightGBM Puro,95%,26.334907643149496,77.6,73.0,229.0,384.0,265.0
+housewares,LightGBM Puro,99%,26.334907643149496,77.6,96.0,251.0,407.0,299.0

@@ -1,0 +1,31 @@
+Categoría,Modelo,Método,RMSE_mean,RMSE_std
+bed_bath_table,Media Móvil,CV (5 folds),54.464063438857224,28.035341572049184
+bed_bath_table,Holt-Winters,CV (5 folds),48.11675818359818,23.121456503672132
+bed_bath_table,LightGBM Puro,CV (5 folds),44.83833636857142,12.606498805901982
+bed_bath_table,GP Puro,Hold-out (75/12),40.16377756566559,
+bed_bath_table,Híbrido (GP+LGBM),Hold-out (75/12),50.43549448807093,
+health_beauty,Media Móvil,CV (5 folds),47.508715227218076,12.477233365578181
+health_beauty,Holt-Winters,CV (5 folds),49.42257912921101,20.438158638136073
+health_beauty,LightGBM Puro,CV (5 folds),39.562218077992874,9.471585812825325
+health_beauty,GP Puro,Hold-out (75/12),62.40214920929234,
+health_beauty,Híbrido (GP+LGBM),Hold-out (75/12),59.41209628822278,
+sports_leisure,Media Móvil,CV (5 folds),36.632873612880076,11.437660200528564
+sports_leisure,Holt-Winters,CV (5 folds),45.838911521541945,18.756641261716155
+sports_leisure,LightGBM Puro,CV (5 folds),36.77365057171753,18.534064561596804
+sports_leisure,GP Puro,Hold-out (75/12),57.092296429491206,
+sports_leisure,Híbrido (GP+LGBM),Hold-out (75/12),64.94291440156769,
+furniture_decor,Media Móvil,CV (5 folds),53.85262139532246,21.480595945769082
+furniture_decor,Holt-Winters,CV (5 folds),225.53806221861282,331.7255238731525
+furniture_decor,LightGBM Puro,CV (5 folds),41.99360027894099,15.846186675321004
+furniture_decor,GP Puro,Hold-out (75/12),36.42447182379942,
+furniture_decor,Híbrido (GP+LGBM),Hold-out (75/12),37.64147699967966,
+computers_accessories,Media Móvil,CV (5 folds),46.01504654319086,11.914227837393058
+computers_accessories,Holt-Winters,CV (5 folds),59.62533863477533,18.594701502170327
+computers_accessories,LightGBM Puro,CV (5 folds),47.97949639979388,13.781088028285614
+computers_accessories,GP Puro,Hold-out (75/12),92.43612523308782,
+computers_accessories,Híbrido (GP+LGBM),Hold-out (75/12),69.87897899916578,
+housewares,Media Móvil,CV (5 folds),31.949297303332266,8.106048779972014
+housewares,Holt-Winters,CV (5 folds),36.07708514051445,12.343354512493535
+housewares,LightGBM Puro,CV (5 folds),26.334907643149496,7.645194725255164
+housewares,GP Puro,Hold-out (75/12),41.90704202118073,
+housewares,Híbrido (GP+LGBM),Hold-out (75/12),62.56495910100272,

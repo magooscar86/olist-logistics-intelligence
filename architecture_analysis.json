@@ -1,0 +1,278 @@
+{
+  "DATA_LAYER": {
+    "descripcion": "Ingesta, limpieza y preparaci\u00f3n de datos",
+    "modulos": [
+      {
+        "nombre": "data_loader.py",
+        "lineas": 150,
+        "funciones": [
+          "load_all",
+          "extract_zip"
+        ]
+      },
+      {
+        "nombre": "geo_processor.py",
+        "lineas": 180,
+        "funciones": [
+          "clean_coordinates",
+          "validate_bounds"
+        ]
+      },
+      {
+        "nombre": "feature_engineering.py",
+        "lineas": 200,
+        "funciones": [
+          "create_temporal_features",
+          "calculate_delays"
+        ]
+      }
+    ],
+    "output": "df_main (109,908 registros \u00d7 26 features)",
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50\u2b50 (Excelente)"
+  },
+  "FORECASTING_TEMPORAL": {
+    "descripcion": "Sistema de predicci\u00f3n de demanda multi-modelo",
+    "modulos": [
+      {
+        "nombre": "time_series_processor.py",
+        "lineas": 220,
+        "funciones": [
+          "aggregate_weekly",
+          "split_temporal"
+        ]
+      },
+      {
+        "nombre": "gaussian_process_model.py",
+        "lineas": 350,
+        "funciones": [
+          "train_gp",
+          "detect_memory",
+          "predict_uncertainty"
+        ]
+      },
+      {
+        "nombre": "baselines.py",
+        "lineas": 180,
+        "funciones": [
+          "moving_average",
+          "holt_winters"
+        ]
+      },
+      {
+        "nombre": "lgbm_forecaster.py",
+        "lineas": 280,
+        "funciones": [
+          "create_lags",
+          "train_lgbm",
+          "feature_importance"
+        ]
+      },
+      {
+        "nombre": "batch_trainer.py",
+        "lineas": 320,
+        "funciones": [
+          "train_all_categories",
+          "parallel_training"
+        ]
+      },
+      {
+        "nombre": "model_validator.py",
+        "lineas": 200,
+        "funciones": [
+          "holdout_validation",
+          "calculate_metrics"
+        ]
+      },
+      {
+        "nombre": "cv_validator.py",
+        "lineas": 250,
+        "funciones": [
+          "time_series_cv",
+          "expanding_window"
+        ]
+      },
+      {
+        "nombre": "model_selector.py",
+        "lineas": 180,
+        "funciones": [
+          "select_best",
+          "rank_models"
+        ]
+      },
+      {
+        "nombre": "stock_calculator.py",
+        "lineas": 220,
+        "funciones": [
+          "safety_stock",
+          "reorder_point"
+        ]
+      },
+      {
+        "nombre": "statistical_tests.py",
+        "lineas": 280,
+        "funciones": [
+          "friedman_test",
+          "bootstrap_ci",
+          "wilcoxon"
+        ]
+      }
+    ],
+    "metricas": {
+      "modelos_evaluados": 5,
+      "categorias": 6,
+      "validaciones": "Cross-Validation + Hold-out",
+      "mejora_promedio": "15.5% vs baselines",
+      "tests_estadisticos": [
+        "Friedman",
+        "Wilcoxon",
+        "Bootstrap CI"
+      ]
+    },
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50\u2b50 (State-of-the-art)"
+  },
+  "SPATIAL_INTELLIGENCE": {
+    "descripcion": "Kriging espacial para predicci\u00f3n de retrasos log\u00edsticos",
+    "modulos": [
+      {
+        "nombre": "spatial_kriging.py",
+        "lineas": 380,
+        "funciones": [
+          "aggregate_spatial",
+          "stratified_sampling",
+          "train_gp"
+        ]
+      },
+      {
+        "nombre": "spatial_analytics.py",
+        "lineas": 450,
+        "funciones": [
+          "generate_grid",
+          "apply_mask",
+          "rgba_mapping"
+        ]
+      },
+      {
+        "nombre": "spatial_viz.py",
+        "lineas": 280,
+        "funciones": [
+          "create_heatmap",
+          "prediction_map"
+        ]
+      }
+    ],
+    "metricas": {
+      "puntos_entrenamiento": 4000,
+      "radio_influencia": "~111 km",
+      "resolucion_malla": "300\u00d7240 p\u00edxeles",
+      "r2_espacial": "Variable por zona"
+    },
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50 (Avanzado, raro en industria)"
+  },
+  "NETWORK_OPTIMIZATION": {
+    "descripcion": "Optimizaci\u00f3n de ubicaci\u00f3n de hubs y an\u00e1lisis de redes",
+    "modulos": [
+      {
+        "nombre": "facility_location.py",
+        "lineas": 320,
+        "funciones": [
+          "optimize_locations",
+          "weighted_kmeans",
+          "visualize_hubs"
+        ]
+      },
+      {
+        "nombre": "graph_analytics.py",
+        "lineas": 380,
+        "funciones": [
+          "build_graph",
+          "centrality_metrics",
+          "vulnerability_report"
+        ]
+      }
+    ],
+    "metricas": {
+      "hubs_optimizados": 4,
+      "algoritmo": "Weighted K-Means",
+      "metricas_red": [
+        "In-Degree",
+        "Out-Degree",
+        "Betweenness"
+      ]
+    },
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50 (Comparable a consultor\u00eda estrat\u00e9gica)"
+  },
+  "USER_INTERFACES": {
+    "descripcion": "Interfaces interactivas para usuarios finales",
+    "modulos": [
+      {
+        "nombre": "interactive_ui.py",
+        "lineas": 400,
+        "funciones": [
+          "render_dashboard",
+          "dynamic_horizon",
+          "calculate_stock"
+        ]
+      },
+      {
+        "nombre": "shipping_calculator.py",
+        "lineas": 350,
+        "funciones": [
+          "predict_shipping",
+          "calibrate_confidence",
+          "geocoding"
+        ]
+      }
+    ],
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50 (Profesional)"
+  },
+  "MLOPS_INFRASTRUCTURE": {
+    "descripcion": "Sistema de versionado y gesti\u00f3n de modelos",
+    "modulos": [
+      {
+        "nombre": "model_registry.py",
+        "lineas": 420,
+        "funciones": [
+          "save_model",
+          "load_latest",
+          "compare_versions",
+          "cleanup"
+        ]
+      }
+    ],
+    "features": [
+      "Versionado autom\u00e1tico con timestamp",
+      "Comparaci\u00f3n de m\u00e9tricas entre versiones",
+      "Cache inteligente de resultados",
+      "Rollback a versiones anteriores"
+    ],
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50 (MLOps est\u00e1ndar)"
+  },
+  "VISUALIZATION": {
+    "descripcion": "Sistema de visualizaci\u00f3n multi-capa",
+    "modulos": [
+      {
+        "nombre": "tournament_viz.py",
+        "lineas": 350,
+        "funciones": [
+          "dashboard",
+          "heatmap",
+          "winners_table"
+        ]
+      },
+      {
+        "nombre": "forecasting_viz.py",
+        "lineas": 180,
+        "funciones": [
+          "plot_predictions",
+          "uncertainty_bands"
+        ]
+      }
+    ],
+    "outputs": [
+      "Mapas interactivos (Folium)",
+      "Dashboards est\u00e1ticos (Matplotlib/Seaborn)",
+      "Interfaces widgets (ipywidgets)"
+    ],
+    "nivel_industria": "\u2b50\u2b50\u2b50\u2b50 (Profesional)"
+  }
+}

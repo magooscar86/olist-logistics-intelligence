@@ -1,0 +1,31 @@
+Aspecto,Amazon/Walmart,Tu Proyecto Olist,Gap,Prioridad
+Ingesta de Datos,✅ Pipelines Airflow,✅ Modular,✅ Par,✅ Completo
+Feature Engineering,✅ Automatizado,✅ Completo,✅ Par,✅ Completo
+Data Quality,✅ DQ Checks,✅ Bounds validation,✅ Par,✅ Completo
+Modelos Temporales,✅ 10+ modelos,✅ 5 modelos,⚠️ Menos variedad,🟡 Mejorable
+Ensemble Methods,✅ Weighted Average,✅ Híbrido GP+LGBM,✅ Único (GP híbrido),✅ Completo
+Validación Rigurosa,✅ Backtest riguroso,✅ CV + Hold-out,✅ Mejor que muchos,✅ Completo
+Statistical Testing,✅ Bayesian Tests,✅ Friedman/Wilcoxon/Bootstrap,✅ Mejor que industria,✅ Completo
+Auto Model Selection,✅ ML-based selector,✅ Rule-based,⚠️ Simplificado,🟡 Mejorable
+Uncertainty Quantification,✅ Quantile Regression,✅ GP posterior,✅ Par,✅ Completo
+Stock Optimization,✅ Multi-SKU,✅ Por categoría,✅ Suficiente,✅ Completo
+Multi-Echelon,✅ Warehouse network,❌ Single-echelon,🔴 Crítico,🔴 P1 - Alto
+Dynamic Safety Stock,✅ Por ubicación,✅ Por RMSE,✅ Par,✅ Completo
+Análisis Espacial,✅ Routing optimization,✅ Heatmaps,✅ Par,✅ Completo
+Kriging Interpolation,⚠️ Raro,✅ Implementado,🟢 MEJOR que industria,✅ Completo
+Geographic Masking,✅ Geofencing,✅ Shapely integration,✅ Par,✅ Completo
+Network Analysis,✅ Supply chain graph,✅ NetworkX,✅ Par,✅ Completo
+Facility Location,✅ Optimization solvers,✅ K-Means ponderado,✅ Par,✅ Completo
+Graph Metrics,✅ Completo,✅ Centralidad,✅ Par,✅ Completo
+Model Versioning,✅ MLflow/SageMaker,✅ Custom Registry,✅ Par,✅ Completo
+Automated Retraining,✅ Scheduled,❌ Manual,🔴 Crítico,🔴 P1 - Alto
+Drift Detection,✅ Evidently AI,❌ Falta,🔴 Crítico,🔴 P1 - Alto
+A/B Testing,✅ Experimentation platform,❌ Falta,🔴 Necesario,🟡 P2 - Medio
+Explainability (SHAP),✅ SHAP integrado,❌ Falta,🔴 Necesario,🟡 P2 - Medio
+REST API,✅ FastAPI/Flask,❌ Solo notebooks,🔴 Crítico,🔴 P1 - Alto
+Containerization,✅ Docker/K8s,❌ Falta,🔴 Crítico,🟡 P2 - Medio
+Cloud Deployment,✅ AWS/GCP,❌ Local only,🔴 Crítico,🟡 P2 - Medio
+Real-time Inference,✅ Sub-segundo,❌ Batch only,🔴 Crítico,🔴 P1 - Alto
+Dashboard Production,✅ Grafana/Tableau,⚠️ Estático,🔴 Crítico,🟡 P2 - Medio
+Alerting System,✅ PagerDuty,❌ Falta,🔴 Crítico,🟡 P2 - Medio
+Performance Tracking,✅ Custom metrics,⚠️ Manual,🔴 Crítico,🟡 P2 - Medio
