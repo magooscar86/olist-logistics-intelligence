@@ -181,6 +181,16 @@ dashboard.render()
 
 ## 🐳 Avanzado: Deployment de API (Opcional)
 
+> **⚠️ IMPORTANTE:** Para usar Docker, primero debes ejecutar el notebook para generar el modelo entrenado.
+> El archivo del modelo (gp_spatial.pkl, ~760MB) no está incluido en el repositorio por límites de tamaño de GitHub.
+> 
+> **Pasos:**
+> 1. Ejecuta `Olist_Executive_Report_Final.ipynb`
+> 2. Espera a que se genere el modelo en `checkpoints/`
+> 3. Luego ejecuta Docker
+
+> **💡 Nota:** Los enlaces localhost solo funcionan ejecutando Docker localmente, no en GitHub.
+
 > **Nota:** Docker NO es necesario para ejecutar el notebook de análisis. Solo se requiere si quieres desplegar los modelos como API REST.
 
 ### ¿Qué es la API?
