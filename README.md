@@ -338,10 +338,9 @@ MIT License - See [LICENSE](LICENSE)
 
 ## 👤 Author
 
-**[Your Name]**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-🌐 Portfolio: [your-website.com](https://your-website.com)
+**Oscar Antonio Melo Leon**  
+📧 Email: magooscar86@gmail.com  
+💼 LinkedIn: [linkedin.com/in/oscar-antonio-león-36b73a105](https://www.linkedin.com/in/oscar-antonio-león-36b73a105)
 
 ---
 

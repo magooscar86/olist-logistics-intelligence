@@ -76,6 +76,20 @@ Sistema integral de inteligencia logística para **Olist** (marketplace brasile�
 
 ---
 
+### 🎮 Demostraciones en Vivo
+
+#### 🖥️ Olist AI Command Center
+Panel interactivo para toma de decisiones estratégicas con optimización de inventario en tiempo real, cálculos de nivel de servicio y predicción de retrasos por categoría.
+
+![Olist AI Command Center](outputs/Olist%20AI%20Command%20Center.png)
+
+#### 📦 Calculadora de Envíos
+Herramienta de evaluación de riesgo geográfico que utiliza modelos espaciales Kriging para predecir retrasos de entrega en cualquier coordenada de Brasil.
+
+![Calculadora de Envíos](outputs/Calculadora%20de%20envios.png)
+
+---
+
 ## 📂 Estructura del Proyecto
 ```
 Olist_Project/
@@ -325,6 +339,8 @@ Licencia MIT - Ver [LICENSE](LICENSE)
 ## 👤 Autor
 
 **Oscar Antonio Melo Leon**  
+📧 Email: magooscar86@gmail.com  
+💼 LinkedIn: [linkedin.com/in/oscar-antonio-león-36b73a105](https://www.linkedin.com/in/oscar-antonio-león-36b73a105)  
 🐙 GitHub: [magooscar86](https://github.com/magooscar86)
 
 ---
